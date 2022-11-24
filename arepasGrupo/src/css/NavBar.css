@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick Ave Display');
+
+.navbar{
+    background-color: #ffffff;
+    border-color: rgb(255, 255, 255);
+
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 3vmin;
+    pointer-events: none;
+}
+

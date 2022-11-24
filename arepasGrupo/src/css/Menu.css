@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick Ave Display');
+
+.menu{
+    background-color: white;
+}
+
+.pantalla{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    background-color: #232323;
+}
+
+.letrica{
+    font-family: 'Sedgwick Ave Display';
+}
+
+.img-thumbnail{
+  
+    height: 17em;
+    width: 30em;
+}
+
+.description{
+    height: 50px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s;
+  }
+
+
+.one-half,
+.one-third {
+    position: relative;
+    margin-right: 4%;
+    float: left;
+        margin-bottom: 20px;
+ 
+}
+ 
+.one-half { width: 48%; }
+.one-third { width: 30.66%; }
+ 
+.last {
+    margin-right: 0 !important;
+    clear: right;
+}
+ 
+@media only screen and (max-width: 767px) {
+    .one-half, .one-third {
+        width: 100%;
+        margin-right: 0;
+    }
+}
