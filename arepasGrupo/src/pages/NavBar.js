@@ -13,7 +13,7 @@ class NavigationBar extends Component {
     cookies.remove("Password", { path: "/" });
     cookies.remove("FirstName", { path: "/" });
     cookies.remove("LastName", { path: "/" });
-    cookies.remove("BirthofDate", { path: "/" });
+    cookies.remove("BirthOfDate", { path: "/" });
     cookies.remove("RegisterDate", { path: "/" });
     cookies.remove("Address", { path: "/" });
     cookies.set("log", false, { path: "/" });
@@ -42,6 +42,9 @@ class NavigationBar extends Component {
               </Nav.Item>
             </Nav>
             <Nav className="ms-auto">
+              <Nav.Item>
+              <Nav.Link as={Link} className="text-black letrica" to="/Carrito">Carrito</Nav.Link>
+              </Nav.Item>
               <Nav.Item>
               <Nav.Link as={Link} className="text-black letrica" to="/Login">Login</Nav.Link>
               </Nav.Item>

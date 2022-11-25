@@ -57,42 +57,37 @@ export function Details(props) {
             <tr key={usr.id}>
               <td>
               <MDBRow className="justify-content-center align-items-center h-100">
-                <MDBCol md="10" lg="8" xl="6" >
+                <MDBCol md="8" lg="6" xl="4" >
                   <MDBCard className="card-stepper" style={{ borderRadius: "16px" }}>
                     <MDBCardBody className="p-4">
-                      <div className="d-flex flex-row mb-4 pb-2">
+                      <div className="d-flex flex-row mb-p6 b-4">
                         <div className="flex-fill">
-                          <MDBTypography tag="h5" className="bold">
+                          <MDBTypography tag="h2" className="bold">
                             {usr.Name}
+                          </MDBTypography>
+                          <br></br>
+                          <div>
+                          <MDBCardImage
+                            fluid
+                            className="align-self-sm-start"
+                            src={`${imagesUrl + usr.Image}`}
+                            width="200"
+                            height="2000"
+                          />
+                        </div>
+                          <br></br>
+                          <MDBTypography tag="h5" className="bold">
+                            Descripcion:
                           </MDBTypography>
                           <p className="text-muted">
                             <span className="text-body">{usr.Description}</span>
                           </p>
                           <MDBTypography tag="h5" className="bold">
-                            Descripcion:
+                            Precio:
                           </MDBTypography>
                           <p className="text-muted">
-                            <span className="text-body">{usr.Historia}</span>
+                            <span className="text-body">{usr.Price}</span>
                           </p>
-
-                          <MDBTypography tag="h5" className="bold">
-                            Ingredientes:
-                          </MDBTypography>
-
-                          <div>{RenderIngredientes(usr.IngreArepa)}</div>
-
-                          <MDBTypography tag="h4" className="mb-3">
-                            Precio: {usr.Price}
-                          </MDBTypography>
-                        </div>
-                        <div>
-                          <MDBCardImage
-                            fluid
-                            className="align-self-center rounded"
-                            src={`${imagesUrl + usr.Image}`}
-                            width="450"
-                            height="500"
-                          />
                         </div>
                       </div>
                     </MDBCardBody>

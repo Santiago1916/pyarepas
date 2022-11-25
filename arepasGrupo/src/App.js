@@ -8,7 +8,7 @@ import { Layout } from '../src/layouts/Layout';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import {Details} from './pages/Details'
-import Menu from './pages'
+import Home from './pages/Home'
 import Carrito from './pages/carrito'
 import {Orders} from './pages/order'
 
@@ -30,7 +30,7 @@ function App() {
             <Router>
             <NavigationBar />
               <Routes>
-                <Route exact path="/" element={<Menu/>} />
+                <Route exact path="/" element={<Home/>} />
                 <Route path="/Login" element={<Login />} />
                 <Route path="/Register" element={<Register />} />
                 <Route path="/Details" element={<Details />} />

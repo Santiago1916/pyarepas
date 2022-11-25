@@ -1,98 +1,77 @@
 {
-  "arepas": [
+  "Products": [
     {
       "id": 1,
       "Name": "Arepa con pollo ",
       "Description": "Arepa rellena con pollo",
       "Price": "3500",
-      "Image": "/Arepa-Rellena-Pollo.jpg",
-      "IngreArepa" :["Arepa", "Pollo"],
-      "Historia": "Deliciosa arepa rellena con pollo desmechado"
+      "Image": "/Arepa-Rellena-Pollo.jpg"
     },
     {
       "id": 2,
       "Name": "Arepa con carne",
       "Description": "Arepa con carne de res",
       "Price": "3000",
-      "Image": "/Arepa-Rellena-Carne.jpg",
-      "IngreArepa" :["Arepa", "Carne"],
-      "Historia": "Deliciosa arepa rellena de carne de res recien"
+      "Image": "/Arepa-Rellena-Carne.jpg"
     },
     {
       "id": 3,
       "Name": "Arepa con chorizo",
       "Description": "Arepa acompañada con chorizo de res",
       "Price": "2500",
-      "Image": "/Arepa-Con-Chorizo.jpg",
-      "IngreArepa" :["Arepa", "Chorizo"],
-      "Historia": "Deliciosa arepa acompañada de chorizo de res"
+      "Image": "/Arepa-Con-Chorizo.jpg"
     },
     {
       "id": 4,
       "Name": "Arepa con jamon y queso ",
       "Description": "Arepa rellena con jamón y queso",
       "Price": "2500",
-      "Image": "/Arepa-Rellena-Jamon-Queso.jpg",
-      "IngreArepa" :["Arepa", "Jamón","Queso"],
-      "Historia": "Deliciosa arepa rellena con jamon y queso los cuales hacen una combinacion espectacular"
+      "Image": "/Arepa-Rellena-Jamon-Queso.jpg"
     },
     {
       "id": 5,
       "Name": "Arepa con todo",
       "Description": "Arepa con carne, pollo, chicharrón, huevo y salsas de la casa",
       "Price": "7000",
-      "Image": "/Arepa-Rellena-Con-Todo.jpg",
-      "IngreArepa" :["Arepa", "Carne","Pollo","Chicharrón","Huevo"],
-      "Historia": "Deliciosa arepa acompañada con un exquisito relleno de carne, pollo, chicharron, huevo y las salsas al gusto"
+      "Image": "/Arepa-Rellena-Con-Todo.jpg"
     },
     {
       "id": 6,
       "Name": "Arepa con queso cuajada",
       "Description": "Arepa con un queso cuajada",
       "Price": "2200",
-      "Image": "/Arepa-Rellena-de-Queso-Cuajada.jpg",
-      "IngreArepa" :["Arepa", "Queso cuajada"],
-      "Historia": "Deliciosa arepa acompañada de un exquisito queso cuajada"
+      "Image": "/Arepa-Rellena-de-Queso-Cuajada.jpg"
     },
     {
       "id": 7,
       "Name": "Arepa con queso ",
       "Description": "Arepa con un queso tajado",
       "Price": "2200",
-      "Image": "/Arepa-Rellena-de-Queso.jpg",
-      "IngreArepa" :["Arepa", "Queso tajado"],
-      "Historia": "Deliciosa arepa acompañada con queso tajado"
+      "Image": "/Arepa-Rellena-de-Queso.jpg"
     },
     {
       "id": 8,
       "Name": "Arepa con huevos revueltos ",
       "Description": "Arepa rellena de huevos revueltos",
       "Price": "2500",
-      "Image": "/Arepa-Rellena-Huevos-Revueltos.jpg",
-      "IngreArepa" :["Arepa", "Huevos revueltos"],
-      "Historia": "Deliciosa arepa rellena de huevos revueltos"
+      "Image": "/Arepa-Rellena-Huevos-Revueltos.jpg"
     },
     {
       "id": 9,
       "Name": "Arepa sencilla",
       "Description": "Arepa sencilla con mantequilla o sin mantequilla",
       "Price": "1200",
-      "Image": "/Arepa-Sencilla.jpg",
-      "IngreArepa" :["Arepa", "Mantequilla"],
-      "Historia": "Deliciosa arepa sencilla con o sin mantequilla"
+      "Image": "/Arepa-Sencilla.jpg"
     },
     {
       "id": 10,
       "Name": "Arepa con salchicha ranchera ",
       "Description": "Arepa rellena de salchicha ranchera",
       "Price": "4000",
-      "Image": "/Arepa-Rellena-Salchicha-Ranchera.png",
-      "IngreArepa" :["Arepa", "Salchicha"],
-      "Historia": "Deliciosa arepa viene rellena de trozos de salchichas rancheras y queso"
-    }
-  ],
-
-  "customers": [
+      "Image": "/Arepa-Rellena-Salchicha-Ranchera.png"
+      }
+     ],
+  "Customers": [
     {
       "id": 1,
       "Email": "danigue2003@gmail.com",
@@ -105,8 +84,7 @@
       "PhoneNumber": "3184259685"
     }
   ],
-
-"Orders": [
+  "Orders": [
     {
       "id": 1,
       "CreatedDate": "",
@@ -117,10 +95,25 @@
       "DeliveryPhoneNumber": "",
       "DeliveryFirstName": "",
       "DeliveryLastName": ""
+    },
+    {
+      "DeliveryAddress": "",
+      "DeliveryPhoneNumber": "",
+      "DeliveryFirstName": "",
+      "DeliveryLastName": "",
+      "Notes": "",
+      "id": 2
+    },
+    {
+      "DeliveryAddress": "",
+      "DeliveryPhoneNumber": "",
+      "DeliveryFirstName": "",
+      "DeliveryLastName": "",
+      "Notes": "",
+      "id": 3
     }
   ],
-
-"OrderDetails": [
+  "OrderDetails": [
     {
       "id": 1,
       "OrderId": "",
@@ -130,4 +123,3 @@
     }
   ]
 }
-

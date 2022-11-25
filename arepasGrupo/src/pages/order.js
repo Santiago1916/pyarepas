@@ -45,20 +45,20 @@ export function Orders() {
     });
   };
 
-  if (logged == false) {
+  if (logged === false) {
     return (
       <Container className="mt-9">
-        <h1 className="text-light letrica">
+        <h1 className="text-dark letrica">
           ingresa tus datos para realizar el pedido
         </h1>
         <Form.Group className="form-group mb-3" controlId="formBasicEmail">
           <p></p>
           <div className="center">
-            <div className="justify-content-start text-light letrica">
+            <div className="justify-content-start text-dark letrica">
               <h4 className="center">Nombre</h4>
             </div>
             <input
-              placeholder="su Nombre"
+              placeholder="Nombre"
               type="name"
               className="form-control-lg"
               id="ControlInputCorreo"
@@ -69,11 +69,11 @@ export function Orders() {
               size={25}
             />
             <p></p>
-            <div className="justify-content-start text-light letrica">
+            <div className="justify-content-start text-dark letrica">
               <h4 className="center">Apellido </h4>
             </div>
             <input
-              placeholder="contraseña"
+              placeholder="Apellido"
               type="name"
               className="form-control-lg"
               id="ControlInputContraseña"
@@ -84,11 +84,11 @@ export function Orders() {
               size={25}
             />
             <p></p>
-            <div className="justify-content-start text-light letrica">
-              <h4 className="center">Dirreccion</h4>
+            <div className="justify-content-start text-dark letrica">
+              <h4 className="center">Direccion</h4>
             </div>
             <input
-              placeholder="Su Nombre"
+              placeholder="Direccion"
               type="Address"
               className="form-control-lg"
               id="exampleFormControlInput1"
@@ -99,11 +99,11 @@ export function Orders() {
               size={25}
             />
             <p></p>
-            <div className="justify-content-start text-light letrica">
+            <div className="justify-content-start text-dark letrica">
               <h4 className="center">Numero</h4>
             </div>
             <input
-              placeholder="Su Numero"
+              placeholder="Numero"
               type="phone"
               className="form-control-lg"
               id="exampleFormControlInput1"
@@ -117,11 +117,11 @@ export function Orders() {
               size={25}
             />
             <p></p>
-            <div className="justify-content-start text-light letrica ">
+            <div className="justify-content-start text-dark letrica ">
               <h4 className="center">Notas</h4>
             </div>
             <input
-              placeholder="direcion, casa o apartamento etc."
+              placeholder="direccion, casa o apartamento etc."
               type="text"
               className="form-control-lg"
               id="exampleFormControlInput1"
@@ -149,7 +149,7 @@ export function Orders() {
   } else {
     return (
       <Container className="mt-9">
-        <h1 className="text-light letrica">
+        <h1 className="text-dark letrica">
           ingresa tus datos para realizar el pedido
         </h1>
         <Form.Group className="form-group mb-3" controlId="formBasicEmail">
@@ -159,7 +159,7 @@ export function Orders() {
               <h4 className="center">Nombre</h4>
             </div>
             <input
-              placeholder="su Nombre"
+              placeholder="Nombre"
               type="name"
               className="form-control-lg"
               id="ControlInputCorreo"
@@ -172,7 +172,7 @@ export function Orders() {
               <h4 className="center">Apellido </h4>
             </div>
             <input
-              placeholder="contraseña"
+              placeholder="Apellido"
               type="name"
               className="form-control-lg"
               id="ControlInputContraseña"
@@ -181,11 +181,11 @@ export function Orders() {
               readOnly
             />
             <p></p>
-            <div className="justify-content-start text-light letrica">
-              <h4 className="center">Dirreccion</h4>
+            <div className="justify-content-start text-dark letrica">
+              <h4 className="center">Direccion</h4>
             </div>
             <input
-              placeholder="Su Direcion"
+              placeholder="Direccion"
               type="Address"
               className="form-control-lg"
               id="exampleFormControlInput1"
@@ -194,11 +194,11 @@ export function Orders() {
               readOnly
             />
             <p></p>
-            <div className="justify-content-start text-light letrica">
+            <div className="justify-content-start text-dark letrica">
               <h4 className="center">Numero</h4>
             </div>
             <input
-              placeholder="Su Numero"
+              placeholder="Numero"
               type="phone"
               className="form-control-lg"
               id="exampleFormControlInput1"
@@ -207,11 +207,11 @@ export function Orders() {
               
             />
             <p></p>
-            <div className="justify-content-start text-light letrica ">
+            <div className="justify-content-start text-dark letrica ">
               <h4 className="center">Notas</h4>
             </div>
             <input
-              placeholder="direcion, casa o apartamento etc"
+              placeholder="direccion, casa o apartamento etc"
               type="text"
               className="form-control-lg"
               id="exampleFormControlInput1"

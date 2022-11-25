@@ -5,7 +5,7 @@ import Cookies from 'universal-cookie';
 import "../css/NavBar.css";
 import {} from '../utils/actions'
 
-const baseUrl = "http://localhost:3000/usuarios"; 
+const baseUrl = "http://localhost:3000/Customers"; 
 const cookies = new Cookies();
 
 class Login extends Component {
@@ -38,7 +38,7 @@ class Login extends Component {
           cookies.set('Password', respuesta.Password, { path: "/" });
           cookies.set('FirstName', respuesta.FirstName, { path: "/" });
           cookies.set('LastName', respuesta.LastName, { path: "/" });
-          cookies.set('BirthOrDate', respuesta.BirthOrDate, { path: "/" });
+          cookies.set('BirthOfDate', respuesta.BirthOfDate, { path: "/" });
           cookies.set('RegisterDate', respuesta.RegisterDate, { path: "/" });
           cookies.set('Address', respuesta.Address, { path: "/" });
           cookies.set('log', true, { path: "/" });

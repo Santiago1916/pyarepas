@@ -54,7 +54,7 @@ function Carrito() {
     for (let i = 0; i < xd.length; i++) {
       GetItem(xd[i]);
     }
-  }, [-1]);
+  }, []);
 
   if (xd.length > 0) {
     console.log(myArray);
@@ -83,12 +83,12 @@ function Carrito() {
           </Col>
         ))}
       </Row>
-      <button className="btn btn-success"type="submit"href="/"onClick={handleFormSubmit}>pedir ahora!!!</button>
+      <button className="btn btn-success"type="submit"href="/"onClick={handleFormSubmit}>Hacer pedidio</button>
       </Container>
       
     );
   } else if (xd.length === 0) {
-    return <h1 className="letrica text-white">carrito vacio</h1>;
+    return <h1 className="letrica text-black">carrito vacio</h1>;
   }
 }
 

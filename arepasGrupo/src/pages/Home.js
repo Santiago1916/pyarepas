@@ -179,7 +179,7 @@ function Menu2() {
             <form
               style={{
                 margin: "auto",
-                padding: "15px",
+                padding: "40px",
                 maxWidth: "400px",
                 alignContent: "center",
               }}
@@ -231,7 +231,7 @@ function Menu2() {
       <div
         style={{
           margin: "auto",
-          padding: "15px",
+          padding: "30px",
           maxWidth: "250px",
           alignContent: "center",
         }}
